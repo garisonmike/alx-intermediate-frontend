@@ -1,0 +1,13 @@
+# Step 1: Install NVM
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Step 2: Restart terminal
+exit
+# Reopen the terminal
+
+# Step 3: Install Node.js version 20.16
+nvm install 20.16.0
+nvm use 20.16.0
+
+# Step 4: Install SASS version 3.7.4
+npm install sass -v 3.7.4
